@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>휘리릭 데브 (huiriric) — 개발자 페이지</title>
+  <meta name="description" content="휘리릭 데브의 공식 개발자 페이지 — 앱 목록, 연락처, 개인정보처리방침 링크" />
+  <meta property="og:title" content="휘리릭 데브 (huiriric) — 개발자 페이지" />
+  <meta property="og:description" content="mrplando, SoundHz 등 모바일 앱 개발자 페이지입니다. 개인정보처리방침 및 연락처를 확인하세요." />
+  <meta property="og:type" content="website" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Segoe UI', Roboto, Arial; color:#222; margin:0; padding:0; background:#f5f7fb; }
+    .wrap{max-width:980px;margin:0 auto;padding:36px 20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{font-weight:700;color:#0b63a0;font-size:1.5rem}
+    h1{margin:6px 0 0 0;font-size:1.4rem}
+    p.lead{margin-top:8px;color:#555}
+    section{background:#fff;padding:20px;border-radius:10px;margin-top:20px;box-shadow:0 1px 4px rgba(15,23,42,0.04)}
+    .contact p{margin:6px 0}
+    ul.app-list{list-style:none;padding:0;margin:0}
+    ul.app-list li{padding:12px 0;border-bottom:1px solid #eee}
+    a.button{display:inline-block;background:#0b63a0;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none}
+    footer{margin-top:28px;color:#666;font-size:0.9rem;text-align:center}
+    .meta{font-size:0.9rem;color:#888}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "휘리릭 데브",
+    "url": "https://yourdomain.example/",
+    "contactPoint": [{ "@type": "ContactPoint", "email": "mailto:huiriric.dev@gmail.com", "telephone": "010-6217-0675", "contactType": "customer support", "areaServed": "KR", "availableLanguage": ["Korean"] }],
+    "address": {"@type":"PostalAddress","addressLocality":"정읍시","addressRegion":"전북특별자치도","streetAddress":"수성4로 51 3층"}
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">휘리릭 데브</div>
+      <div>
+        <h1>개발자 페이지 — huiriric</h1>
+        <p class="lead">모바일 앱 개발 및 운영. 문의/PR/개발 협업은 아래 연락처로 해주세요.</p>
+        <p class="meta">공식 연락처 및 개인정보처리방침 링크 제공</p>
+      </div>
+    </header>
+
+    <section class="contact">
+      <h2>연락처</h2>
+      <p><strong>개발자:</strong> huiriric</p>
+      <p><strong>조직명:</strong> 휘리릭 데브</p>
+      <p><strong>이메일:</strong> <a href="mailto:huiriric.dev@gmail.com">huiriric.dev@gmail.com</a></p>
+      <p><strong>전화번호:</strong> 010-6217-0675</p>
+      <p><strong>주소:</strong> 전북특별자치도 정읍시 수성4로 51 3층</p>
+    </section>
+
+    <section>
+      <h2>앱 목록</h2>
+      <ul class="app-list">
+        <li>
+          <strong>SoundHz</strong>
+          <p>오디오 관련 앱 — 구독 및 광고(AdMob) 연동 가능성 반영(정책 원본 사용).</p>
+          <p><a class="button" href="privacy_policy_soundhz.html">개인정보처리방침 보기</a></p>
+        </li>
+        <li>
+          <strong>mrplando</strong>
+          <p>출시 예정 — 현재 개발 중이며, 앱별 정책을 별도로 준비합니다.</p>
+          <p><a class="button" href="privacy_policy_mrplando.html">미리보기: 개인정보처리방침</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>개인정보처리방침 및 도메인 정보</h2>
+      <p>Play Console에 등록할 때는 본 페이지의 URL 또는 각 앱 별 Privacy Policy URL을 입력하시기 바랍니다. 현재 페이지는 로컬 저장소에 생성되어 있으므로, 공개하려면 <strong>GitHub Pages</strong> 또는 다른 호스팅 서비스에 업로드해야 합니다.</p>
+      <p>원하시면 GitHub Pages로 자동 배포(깃허브 액션) 설정을 도와드리겠습니다.</p>
+    </section>
+
+    <footer>
+      <p>© 휘리릭 데브 — huiriric</p>
+      <p class="meta">Privacy policy: <a href="privacy_policy_soundhz.html">SoundHz</a> • <a href="privacy_policy_mrplando.html">mrplando</a></p>
+    </footer>
+  </div>
+</body>
+</html>
